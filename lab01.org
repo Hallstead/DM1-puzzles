@@ -29,13 +29,17 @@ What is B:
   :LOGBOOK:
   CLOCK: [2018-05-03 Thu 10:49]--[2018-05-03 Thu 10:55] =>  0:06
   :END:
-Some idiot forgot to disarm a bomb that is laid in the 'decomisioned' bomb pile.
-Unfortunately the only way to tell which bomb is armed is to use a special weighing system.
-To add insult to injury we don't know if the armed bomb weighs less or more on the system just that it weighs differently.
-But there is yet another catch the weighing system only have three charges left, but it can weight any number of bombs at once.
-Your job is to tell which 1 bomb out of the 9 bombs is armed while only using the weighing machine three times.
--
-/You measure the bombs in threes. First weigh the first two group of threes to get a base, then replace one of the groups with the thrid to determine where the bomb is located (the group that is heavier/lighter than the other two has the bomb, and now we know if it is heavier or lighter. Finally, measure two of the bombs from the heavier/lighter group. If they are equal it is the bomb that wasn't weighed. Otherwise, it is the heavier/lighter bomb, depending on if the odd group out was heavier or lighter./ 
+Some idiot forgot to disarm a bomb that is laid in the 'decomissioned' bomb pile.
+Unfortunately, the only way to tell which bomb is armed is to use a special weighing system.
+To add insult to injury, we don't know if the armed bomb weighs less or more on the system — just that it weighs differently.
+But there is yet another catch: the weighing system only has three charges left, but it can weigh any number of bombs at once.
+Your job is to tell which 1 bomb out of the 9 bombs is armed while only using the weighing machine three times.  
+
+---
+
+You measure the bombs in threes. First, weigh the first two groups of three to get a base, then replace one of the groups with the third group to determine where the bomb is located (the group that is heavier or lighter than the others has the bomb, and now we know if it is heavier or lighter).
+Finally, measure two of the bombs from the heavier/lighter group. If they are equal, it is the bomb that wasn't weighed. Otherwise, it is the heavier/lighter bomb, depending on if the odd group out was heavier or lighter.
+
 * TODO The BEAST
   :LOGBOOK:
   CLOCK: [2018-05-03 Thu 10:56]

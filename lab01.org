@@ -34,8 +34,7 @@ Unfortunately the only way to tell which bomb is armed is to use a special weigh
 To add insult to injury we don't know if the armed bomb weighs less or more on the system just that it weighs differently.
 But there is yet another catch the weighing system only have three charges left, but it can weight any number of bombs at once.
 Your job is to tell which 1 bomb out of the 9 bombs is armed while only using the weighing machine three times.
-
-
+-
 /You measure the bombs in threes. First weigh the first two group of threes to get a base, then replace one of the groups with the thrid to determine where the bomb is located (the group that is heavier/lighter than the other two has the bomb, and now we know if it is heavier or lighter. Finally, measure two of the bombs from the heavier/lighter group. If they are equal it is the bomb that wasn't weighed. Otherwise, it is the heavier/lighter bomb, depending on if the odd group out was heavier or lighter./ 
 * TODO The BEAST
   :LOGBOOK:
